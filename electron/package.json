@@ -1,6 +1,6 @@
 {
   "name": "importease",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "ImportEase - Guided GSTR-2B & GSTR-2A to purchase register helper for CAs",
   "main": "app/main.js",
   "scripts": {
@@ -33,9 +33,9 @@
     "xlsx": "^0.18.5"
   },
   "build": {
-    "appId": "com.jeet115.importease",
-    "productName": "ImportEase",
-    "artifactName": "ImportEase-Setup-${version}.${ext}",
+    "appId": "com.jeet115.importeaseTrial",
+    "productName": "ImportEaseTrial",
+    "artifactName": "ImportEaseTrial-Setup-${version}.${ext}",
     "directories": {
       "output": "dist"
     },
@@ -59,7 +59,7 @@
       {
         "provider": "github",
         "owner": "Jeet-115",
-        "repo": "ImportEase"
+        "repo": "ImportEaseTrial"
       }
     ],
 
